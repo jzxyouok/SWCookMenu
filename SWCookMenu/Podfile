@@ -9,4 +9,5 @@ target 'SWCookMenu' do
 
   # Pods for SWCookMenu
 	pod 'SnapKit'
+	pod 'Kingfisher'
 end

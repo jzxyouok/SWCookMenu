@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E6257C71F58121E00897335 /* SWBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6257C61F58121E00897335 /* SWBaseViewController.swift */; };
+		2E6257C91F5812E700897335 /* SWMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6257C81F5812E700897335 /* SWMoreViewController.swift */; };
+		2E6257CB1F58237100897335 /* SWMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6257CA1F58237100897335 /* SWMenuViewController.swift */; };
+		2E6257CD1F58237D00897335 /* SWTypeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6257CC1F58237D00897335 /* SWTypeViewController.swift */; };
 		2E686AA51F57C3CF004F6E43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E686AA41F57C3CF004F6E43 /* AppDelegate.swift */; };
-		2E686AA71F57C3CF004F6E43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E686AA61F57C3CF004F6E43 /* ViewController.swift */; };
-		2E686AAA1F57C3CF004F6E43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E686AA81F57C3CF004F6E43 /* Main.storyboard */; };
 		2E686AAC1F57C3CF004F6E43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E686AAB1F57C3CF004F6E43 /* Assets.xcassets */; };
-		2E686AAF1F57C3CF004F6E43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E686AAD1F57C3CF004F6E43 /* LaunchScreen.storyboard */; };
+		2E686AB81F57CBCE004F6E43 /* SWMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E686AB71F57CBCE004F6E43 /* SWMainViewController.swift */; };
+		2E686ABD1F57CC42004F6E43 /* SWConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E686ABC1F57CC42004F6E43 /* SWConstants.swift */; };
+		2E8BB8931F58EE5500FD9B5D /* SWCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BB8921F58EE5500FD9B5D /* SWCollectionViewController.swift */; };
+		2E8BB8971F59392800FD9B5D /* SWMenuTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BB8961F59392800FD9B5D /* SWMenuTypeCell.swift */; };
+		2E8BB8991F5942CD00FD9B5D /* SWMenuHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BB8981F5942CD00FD9B5D /* SWMenuHelper.swift */; };
+		2E8BB89B1F59532500FD9B5D /* SWMenuBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E8BB89A1F59532500FD9B5D /* SWMenuBannerView.swift */; };
 		B277E0B7142F397D3D900498 /* Pods_SWCookMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E1CE8CD6DCCEDC3F04B822 /* Pods_SWCookMenu.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09E1CE8CD6DCCEDC3F04B822 /* Pods_SWCookMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWCookMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E6257C61F58121E00897335 /* SWBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWBaseViewController.swift; sourceTree = "<group>"; };
+		2E6257C81F5812E700897335 /* SWMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMoreViewController.swift; sourceTree = "<group>"; };
+		2E6257CA1F58237100897335 /* SWMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMenuViewController.swift; sourceTree = "<group>"; };
+		2E6257CC1F58237D00897335 /* SWTypeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWTypeViewController.swift; sourceTree = "<group>"; };
 		2E686AA11F57C3CF004F6E43 /* SWCookMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWCookMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E686AA41F57C3CF004F6E43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E686AA61F57C3CF004F6E43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2E686AA91F57C3CF004F6E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E686AAB1F57C3CF004F6E43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2E686AAE1F57C3CF004F6E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E686AB01F57C3CF004F6E43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E686AB71F57CBCE004F6E43 /* SWMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMainViewController.swift; sourceTree = "<group>"; };
+		2E686ABC1F57CC42004F6E43 /* SWConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWConstants.swift; sourceTree = "<group>"; };
+		2E8BB8921F58EE5500FD9B5D /* SWCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWCollectionViewController.swift; sourceTree = "<group>"; };
+		2E8BB8961F59392800FD9B5D /* SWMenuTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMenuTypeCell.swift; sourceTree = "<group>"; };
+		2E8BB8981F5942CD00FD9B5D /* SWMenuHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMenuHelper.swift; sourceTree = "<group>"; };
+		2E8BB89A1F59532500FD9B5D /* SWMenuBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWMenuBannerView.swift; sourceTree = "<group>"; };
 		3E3EE0D3E52209B1A26B5E12 /* Pods-SWCookMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWCookMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-SWCookMenu/Pods-SWCookMenu.release.xcconfig"; sourceTree = "<group>"; };
 		D13CDE48D260497215F71EF8 /* Pods-SWCookMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWCookMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SWCookMenu/Pods-SWCookMenu.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -48,6 +62,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2E6257BF1F5810E900897335 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2E6257C11F5811C800897335 /* More */,
+				2E6257C21F5811C800897335 /* Type */,
+				2E6257C31F5811C800897335 /* Menu */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2E6257C11F5811C800897335 /* More */ = {
+			isa = PBXGroup;
+			children = (
+				2E6257C81F5812E700897335 /* SWMoreViewController.swift */,
+				2E8BB8921F58EE5500FD9B5D /* SWCollectionViewController.swift */,
+				2E6257CE1F585B5300897335 /* View */,
+				2E6257CF1F585B5300897335 /* Model */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		2E6257C21F5811C800897335 /* Type */ = {
+			isa = PBXGroup;
+			children = (
+				2E6257CC1F58237D00897335 /* SWTypeViewController.swift */,
+			);
+			path = Type;
+			sourceTree = "<group>";
+		};
+		2E6257C31F5811C800897335 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				2E6257CA1F58237100897335 /* SWMenuViewController.swift */,
+				2E8BB8941F5910B300FD9B5D /* View */,
+				2E8BB8951F5910B300FD9B5D /* Model */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		2E6257C41F58120D00897335 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				2E6257C51F58120D00897335 /* BaseController */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2E6257C51F58120D00897335 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				2E6257C61F58121E00897335 /* SWBaseViewController.swift */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		2E6257CE1F585B5300897335 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E6257CF1F585B5300897335 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		2E686A981F57C3CF004F6E43 = {
 			isa = PBXGroup;
 			children = (
@@ -70,13 +153,47 @@
 			isa = PBXGroup;
 			children = (
 				2E686AA41F57C3CF004F6E43 /* AppDelegate.swift */,
-				2E686AA61F57C3CF004F6E43 /* ViewController.swift */,
-				2E686AA81F57C3CF004F6E43 /* Main.storyboard */,
+				2E6257C41F58120D00897335 /* Base */,
+				2E686AB91F57CC19004F6E43 /* Constants */,
+				2E686AB61F57CBB1004F6E43 /* Main */,
+				2E6257BF1F5810E900897335 /* Classes */,
 				2E686AAB1F57C3CF004F6E43 /* Assets.xcassets */,
-				2E686AAD1F57C3CF004F6E43 /* LaunchScreen.storyboard */,
 				2E686AB01F57C3CF004F6E43 /* Info.plist */,
 			);
 			path = SWCookMenu;
+			sourceTree = "<group>";
+		};
+		2E686AB61F57CBB1004F6E43 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2E686AB71F57CBCE004F6E43 /* SWMainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2E686AB91F57CC19004F6E43 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				2E686ABC1F57CC42004F6E43 /* SWConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		2E8BB8941F5910B300FD9B5D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BB8961F59392800FD9B5D /* SWMenuTypeCell.swift */,
+				2E8BB89A1F59532500FD9B5D /* SWMenuBannerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2E8BB8951F5910B300FD9B5D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E8BB8981F5942CD00FD9B5D /* SWMenuHelper.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		5800984E606185BEC68B72A3 /* Pods */ = {
@@ -151,9 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E686AAF1F57C3CF004F6E43 /* LaunchScreen.storyboard in Resources */,
 				2E686AAC1F57C3CF004F6E43 /* Assets.xcassets in Resources */,
-				2E686AAA1F57C3CF004F6E43 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,31 +327,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E686AA71F57C3CF004F6E43 /* ViewController.swift in Sources */,
+				2E8BB8931F58EE5500FD9B5D /* SWCollectionViewController.swift in Sources */,
 				2E686AA51F57C3CF004F6E43 /* AppDelegate.swift in Sources */,
+				2E6257C71F58121E00897335 /* SWBaseViewController.swift in Sources */,
+				2E6257CD1F58237D00897335 /* SWTypeViewController.swift in Sources */,
+				2E6257C91F5812E700897335 /* SWMoreViewController.swift in Sources */,
+				2E6257CB1F58237100897335 /* SWMenuViewController.swift in Sources */,
+				2E8BB8991F5942CD00FD9B5D /* SWMenuHelper.swift in Sources */,
+				2E8BB89B1F59532500FD9B5D /* SWMenuBannerView.swift in Sources */,
+				2E686ABD1F57CC42004F6E43 /* SWConstants.swift in Sources */,
+				2E8BB8971F59392800FD9B5D /* SWMenuTypeCell.swift in Sources */,
+				2E686AB81F57CBCE004F6E43 /* SWMainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2E686AA81F57C3CF004F6E43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E686AA91F57C3CF004F6E43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2E686AAD1F57C3CF004F6E43 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2E686AAE1F57C3CF004F6E43 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2E686AB11F57C3CF004F6E43 /* Debug */ = {
@@ -339,12 +444,15 @@
 			baseConfigurationReference = D13CDE48D260497215F71EF8 /* Pods-SWCookMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 28XRZ273MD;
 				INFOPLIST_FILE = SWCookMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.selwyn.SWCookMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -353,12 +461,15 @@
 			baseConfigurationReference = 3E3EE0D3E52209B1A26B5E12 /* Pods-SWCookMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 28XRZ273MD;
 				INFOPLIST_FILE = SWCookMenu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.selwyn.SWCookMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -381,6 +492,7 @@
 				2E686AB51F57C3CF004F6E43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
